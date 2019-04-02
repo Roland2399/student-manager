@@ -1,0 +1,12 @@
+[Student] - (View courses), (View courses)>(Verify log in),
+[Student] - (View grades), (View grades)>(Verify log in),
+[Student] - (View other activities), (View other activities)>(Verify log in),
+(Verify log in) < (Invalid log in),
+[Teacher] - (View students), (View students)>(Verify log in),
+[Teacher] - (Add student), (Add student)>(Verify log in),
+[Teacher] - (Add grades), (Add grades)>(Verify log in),
+[Admin] - (Create account), (Create account) < (Account already exists)
+(Add student) < (Student already enrolled)
+(Add grades) < (Show statistics)
+(Create account) < (Account already created)
+[Admin] - (Add subject)
